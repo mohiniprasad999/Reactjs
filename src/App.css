@@ -1,0 +1,13 @@
+.block{
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.row{
+  display: flex;
+}
