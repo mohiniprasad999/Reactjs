@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 interface IBlockProps {
     value?: string | null
     onClick?: () => void
