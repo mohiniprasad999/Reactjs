@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="heading">
-        <h1>React Login Form</h1>
+        <h1>React Login Forms</h1>
       </div>
       <div>
         <Login />
