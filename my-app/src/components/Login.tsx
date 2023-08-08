@@ -39,7 +39,7 @@ const Login: React.FC = () => {
                             name="email"
                             onChange={handleChange}
                             value={state.user.email}
-                            className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                            className="form-control" aria-describedby="emailHelp" placeholder="Enter email" />
 
                     </div>
                     <div className="form-group">
@@ -51,6 +51,10 @@ const Login: React.FC = () => {
                     </div>
                     <button type="submit" className="btn">Submit</button>
                 </form>
+
+                <div className="">
+                    <p>{JSON.stringify(state.user)}</p>
+                </div>
             </div>
         </>
 
